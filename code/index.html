@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+                        Search Engine
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        
+          <link rel="stylesheet" href="style.css">  
+         </head>
+    <body> 
+          <div class="content">
+              <h1>DISCOVER</h1>
+              
+          </div>      
+               <input type ="text" class="text" placeholder="What are you looking for?">
+         <div class ="searchbtn">
+              <img src="https://img.icons8.com/dotty/80/000000/advanced-search.png" target="_blank"> </div>
+        <div class ="switch-language">
+            <span>Languages:</span>
+    <a href="#"  style="color:white">Tamil</a>
+    <a href="#"  style="color:white">తెలుగు</a>
+    <a href="#"  style="color:white">English</a>
+    <a href="#"  style="color:white">हिंद</a>
+    </div>
+         
+    <script type="text/javascript">
+
+     
+
+      google.load("elements", "1", {
+            packages: "transliteration"
+          });
+
+      function onLoad() {
+        var options = {
+            sourceLanguage:
+                google.elements.transliteration.LanguageCode.ENGLISH,
+            destinationLanguage:
+                [google.elements.transliteration.LanguageCode.HINDI],
+            shortcutKey: 'ctrl+g',
+            transliterationEnabled: true
+        };
+
+        // Create an instance on TransliterationControl with the required
+        // options.
+        var control =
+            new google.elements.transliteration.TransliterationControl(options);
+
+        // Enable transliteration in the textbox with id
+        // 'transliterateTextarea'.
+        control.makeTransliteratable(['transliterateTextarea']);
+      }
+      google.setOnLoadCallback(onLoad);
+    </script>
+  </head>
+  <body>
+    Type in Hindi (Press Ctrl+g to toggle between English and Hindi)<br>
+    <textarea id="transliterateTextarea" style="width:600px;height:200px"></textarea>
+  </body>
+</html> 
+
+Getting started
+
+          </script>
+    </body>
+</html>

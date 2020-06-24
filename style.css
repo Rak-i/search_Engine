@@ -1,0 +1,54 @@
+
+
+h1{
+    font-family: 'poppins',sans-serif;
+    margin-left:400px ;  
+    font-size: 100px;
+}
+body {
+    background-image: url("https://wallpaperaccess.com/full/279547.jpg");
+    background-size: cover;     
+}
+
+
+
+input {
+    padding:13px 110px;
+    border-color:white; 
+    margin-left:445px ;   
+    border-radius: 10px; 
+}
+  input:hover{
+    padding:15px 120px;
+    background: rgba(0, 0, 0, 0.10);
+
+  }  
+.searchbtn {
+    margin-top:-42px;
+    margin-left:340px;   
+}
+img {
+    height:40px;
+    width:40px; 
+    margin-left:450px ;   
+}
+img:hover {
+    height:42px;
+    width:42px; 
+    background: rgba(0, 0, 0, 0.5);
+}
+.switch-language {
+    margin-top:5px ;
+    margin-left:465px ;
+    font-family:'Times New Roman', Times, serif;
+}
+a {
+    padding-right:5px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+ a:hover{
+    padding-right:2px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+ }
